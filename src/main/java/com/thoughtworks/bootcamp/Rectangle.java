@@ -1,7 +1,12 @@
 package com.thoughtworks.bootcamp;
 
 public class Rectangle {
-    public float CalculateAreaOfRectangle(float length, float breadth) {
-        return 0;
+    float length;
+
+    Rectangle(float length){
+        this.length = length;
+    }
+    public float CalculateArea() {
+        return length*length ;
     }
 }
